@@ -17,21 +17,7 @@ value.forEach((item, i) => {
       });
       
 });
-plus.addEventListener('click', (item)=>{
-      display.innerHTML += `+`;   
-});
-multiply.addEventListener('click', (item)=>{
-      display.innerHTML += `*`;    
-});
-divide.addEventListener('click', (item)=>{
-      display.innerHTML += `/`;    
-});
-subtract.addEventListener('click', (item)=>{
-      display.innerHTML += `-`;  
-});
-dot.addEventListener('click', (item)=>{
-      display.innerHTML += `.`; 
-});
+
 clear.addEventListener('click', (item)=>{
       display.innerHTML = '';     
 });
