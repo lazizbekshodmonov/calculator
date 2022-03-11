@@ -1,7 +1,7 @@
 let   display = document.querySelector('.display'),
       value = document.querySelectorAll('.value'),
       equal = document.querySelector('.equal'),
-      clear = documgitent.querySelector('.clear'),
+      clear = document.querySelector('.clear'),
       result;
 
 value.forEach((item, i) => {
