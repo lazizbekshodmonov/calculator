@@ -7,7 +7,7 @@ let   display = document.querySelector('.display'),
       divide = document.querySelector('.divide'),
       subtract = document.querySelector('.subtract'),
       dot = document.querySelector('.dot'),
-      result, number;
+      result;
 
 value.forEach((item, i) => {
       let number = value[i].textContent;
